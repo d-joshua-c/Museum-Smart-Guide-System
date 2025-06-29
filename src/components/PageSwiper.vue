@@ -10,7 +10,11 @@
         <!--
             Use Vue's built-in <component> to dynamically render the correct page view.
           -->
-        <component :is="page.component" />
+        <!-- 在渲染页面组件时传递事件 -->
+        <component
+          :is="page.component"
+          v-bind="page.props || {}"
+        />
       </div>
     </div>
   </div>
@@ -72,6 +76,7 @@
       swiperInstance = null
     }
   })
+
   </script>
 
   <style scoped>
