@@ -1,6 +1,5 @@
-# Vuetify (Default)
-
-This is the official scaffolding tool for Vuetify, designed to give you a head start in building your new Vuetify application. It sets up a base template with all the necessary configurations and standard directory structure, enabling you to begin development without the hassle of setting up the project from scratch.
+# Museum-Smart-Guide-System
+Team cooperation space of the project Museum Smart Guide System Technical
 
 ## ❗️ Important Links
 
